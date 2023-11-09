@@ -5,5 +5,22 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/HomeWorkTwo/lib/assertj-core-3.24.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/HomeWorkTwo/lib/junit-jupiter-api-5.10.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/HomeWorkTwo/lib/junit-jupiter-params-5.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/HomeWorkTwo/lib/junit-platform-commons-1.10.0.jar!/" />
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/HomeWorkOne/src/main/java" />
+          <root url="file://$MODULE_DIR$/HomeWorkTwo/src/main/java" />
+          <root url="file://$MODULE_DIR$/HomeWorkTwo/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
