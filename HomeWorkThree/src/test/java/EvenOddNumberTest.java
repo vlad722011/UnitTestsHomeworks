@@ -6,11 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class EvenOddNumberTest {
+
     static EvenOddNumber number = new EvenOddNumber();
     public static int n = 0;
     public static boolean isInterval;
     public static boolean isEven;
     public static boolean isOdd;
+
     @BeforeAll
     public static void setup() {
         System.out.println("_____________________________________________________________________");
@@ -27,6 +29,7 @@ public class EvenOddNumberTest {
         isEven = number.evenOddNumber(n);
         isOdd = true;
     }
+
     @Test
     void isEvenOddNumber() {
         if (n % 2 == 0) {
@@ -37,6 +40,7 @@ public class EvenOddNumberTest {
             System.out.println(n + " -> number is odd");
         }
     }
+
     @Test
     void numberInInterval() {
         if (n >= 25 && n < 100) {
@@ -44,6 +48,7 @@ public class EvenOddNumberTest {
             System.out.println("number in interval [25 - 100}");
         }
     }
+
     @Test
     void numberNotInInterval() {
         if (!(n >= 25 && n < 100)) {
