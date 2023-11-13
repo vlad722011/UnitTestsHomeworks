@@ -11,8 +11,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWorkTwo" />
         <module name="HomeWorkOne" />
-        <module name="HomeWorkThree" />
+        <module name="HomeWorkFour" />
+        <module name="seminarFour" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HomeWorkThree" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
