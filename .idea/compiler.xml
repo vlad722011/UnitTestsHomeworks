@@ -13,10 +13,11 @@
         <module name="HomeWorkOne" />
         <module name="seminarFour (2)" />
         <module name="seminarFour (1)" />
-        <module name="HomeWorkFive" />
+        <module name="HomeWork5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HomeWorkFive" target="21" />
       <module name="HomeWorkFour" target="21" />
       <module name="HomeWorkThree" target="17" />
       <module name="seminarFour" target="17" />
