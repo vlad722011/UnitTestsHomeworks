@@ -10,16 +10,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWorkTwo" />
+        <module name="HomeWork5 (2)" />
         <module name="HomeWorkOne" />
         <module name="seminarFour (2)" />
         <module name="seminarFour (1)" />
-        <module name="HomeWork5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HomeWork5" target="17" />
       <module name="HomeWorkFive" target="21" />
       <module name="HomeWorkFour" target="21" />
-      <module name="HomeWorkThree" target="17" />
+      <module name="HomeWorkSix" target="21" />
+      <module name="HomeWorkThree" target="21" />
       <module name="seminarFour" target="17" />
     </bytecodeTargetLevel>
   </component>
