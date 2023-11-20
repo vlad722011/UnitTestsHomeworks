@@ -13,11 +13,11 @@ public class View extends AppService {
         System.out.println("Среднее значение первого списка чисел равно: "
                 + appService.findTheAverageOfAList(listFirst));
 
-        System.out.println("Среднее значение первого списка чисел равно: "
+        System.out.println("Среднее значение второго списка чисел равно: "
                 + appService.findTheAverageOfAList(listSecond));
 
-        appService.compareValues(appService.findTheAverageOfAList(listFirst),
-                appService.findTheAverageOfAList(listSecond));
+        System.out.println(appService.compareValues(appService.findTheAverageOfAList(listFirst),
+                appService.findTheAverageOfAList(listSecond)));
 
     }
 
