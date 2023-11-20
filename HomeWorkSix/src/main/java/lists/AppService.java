@@ -10,8 +10,8 @@ public class AppService implements IExecutable {
         }
         else {
             int sum = 0;
-            for (int i = 0; i < list.size(); i++) {
-                sum += list.get(i);
+            for (Integer integer : list) {
+                sum += integer;
             }
             return sum / list.size();
         }
