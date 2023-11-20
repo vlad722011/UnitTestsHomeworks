@@ -2,11 +2,11 @@ package lists;
 
 import java.util.List;
 
-public class numbersList {
+public class NumbersList {
    private int size;
    private List<Integer> numbersList;
 
-    public numbersList(int size, List<Integer> numbersList) {
+    public NumbersList(int size, List<Integer> numbersList) {
         this.size = size;
         this.numbersList = numbersList;
     }
